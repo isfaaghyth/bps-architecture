@@ -2,11 +2,6 @@ package app.bps.architecture.data.repository
 
 import app.bps.architecture.data.entity.Person
 
-/**
- * Repository:
- *
- * Mengolah data dari source (db, api, etc) tertentu.
- */
 interface GreetingRepository {
     fun welcome(name: String, age: String): Person
 }

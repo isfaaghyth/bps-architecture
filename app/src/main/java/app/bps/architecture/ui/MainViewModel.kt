@@ -10,11 +10,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-/**
- * ViewModel:
- *
- * Bertugas untuk melakukan pemprosesan data dan logic
- */
 class MainViewModel(
     private val noteRepository: NoteRepository
 ) : ViewModel() {
