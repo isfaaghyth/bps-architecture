@@ -1,14 +1,11 @@
 package app.bps.architecture
 
-import app.bps.architecture.data.entity.Person
 import app.bps.architecture.data.repository.GreetingRepository
 import app.bps.architecture.domain.GetGreetingUseCase
 import app.bps.architecture.domain.GetGreetingUseCaseImpl
 import org.junit.Assert.assertEquals
-import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.mockito.Mock
 import org.mockito.Mockito
 import org.mockito.Mockito.mock
 import org.mockito.junit.MockitoJUnitRunner
