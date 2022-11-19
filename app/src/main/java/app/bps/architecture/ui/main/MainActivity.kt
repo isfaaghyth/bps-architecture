@@ -1,18 +1,12 @@
-package app.bps.architecture.ui
+package app.bps.architecture.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import app.bps.architecture.data.AppDatabase
-import app.bps.architecture.data.repository.GreetingRepository
-import app.bps.architecture.data.repository.GreetingRepositoryImpl
 import app.bps.architecture.data.repository.NoteRepository
 import app.bps.architecture.data.repository.NoteRepositoryImpl
 import app.bps.architecture.databinding.ActivityMainBinding
-import app.bps.architecture.domain.GetGreetingUseCase
-import app.bps.architecture.domain.GetGreetingUseCaseImpl
-import app.bps.architecture.domain.model.GreetingUiModel
 
 class MainActivity : AppCompatActivity() {
 

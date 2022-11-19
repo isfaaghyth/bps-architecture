@@ -1,4 +1,4 @@
-package app.bps.architecture.ui
+package app.bps.architecture.ui.main
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
